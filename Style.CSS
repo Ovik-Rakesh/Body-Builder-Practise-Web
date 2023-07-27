@@ -10,9 +10,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -31,4 +31,36 @@ section {
     color: white;
     padding: 10px 35px;
 
+}
+
+.gather-infu {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+}
+
+
+.text {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.border-shadow {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+
+.beside {
+    display: inline-block;
+}
+
+#color {
+    color: red;
+}
+
+.back-footer {
+    background-image: url(images/shapes/7.png);
 }
